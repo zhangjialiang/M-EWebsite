@@ -1,0 +1,216 @@
+body {
+    font-family: 'Microsoft YaHei', "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+}
+/* 清除浮动 */
+
+.me-clear-float {
+    clear: both;
+    display: none;
+}
+.me-clear {
+    clear: both;
+}
+.me-logo {
+    height: 100px;
+    background: url('../images/index/u3.png') center no-repeat;
+}
+.me-bg-black {
+    background: #000;
+}
+.me-container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*导航栏下的链接*/
+
+.me-nav a {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    color: #9f9f9f;
+    text-align: center;
+    text-decoration: none;
+}
+.me-nav a:hover,
+.me-nav a:active {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.me-nav .me-active {
+    background-color: red;
+    color: white;
+}
+.me-nav .active:hover {
+    background-color: red;
+    color: white;
+}
+/*两条分割线中夹带文字*/
+
+.me-line-wrapper {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.clean-line-top {
+    border-top: 0px;
+}
+.me-line-wrapper .me-line-text {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: #666666;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+/*底部box加标题描述样式*/
+
+.me-box-wrapper {} 
+.me-box-item {
+    float: left;
+    width: 320px;
+    padding: 20px 0;
+}
+.me-box-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+    color: #6F6F6F;
+    text-align: center;
+}
+.me-box-img {
+    text-align: center;
+    margin-top: 10px;
+    width: 320px;
+    height: 224px;
+}
+.me-box-img img {
+    margin: auto;
+    vertical-align: middle;
+}
+.me-box-content {
+    font-size: 14px;
+    color: #9F9F9F;
+}
+/* 底部公司详情 */
+
+.me-company-detail-wrapper {
+    display: block;
+    text-align: center;
+    margin-left: 34px;
+    margin-top: 30px;
+}
+.me-company-back {
+    background-color: #fafafa;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.me-detail-item {
+    float: left;
+    width: 328px;
+}
+.me-detail-icon {
+    height: 138px;
+    text-align: center;
+    vertical-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.me-detail-icon img {
+    margin-top: 41px;
+}
+.me-choose-item {
+    display: block;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-right: 40px;
+    padding: 0px 2px 5px 2px;
+}
+.me-detail-choose {
+    text-align: center;
+}
+.me-detail-choose .active {
+    border-bottom: 2px solid #ff0000;
+}
+.me-detail-des {
+    text-align: left;
+    display: none;
+    color: #9f9f9f;
+}
+.me-detail-phone {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+    font-weight: 400;
+}
+.me-detail-number {
+    float: left;
+    margin-left: 32px;
+    color: #9f9f9f;
+}
+.show {
+    display: block;
+}
+.me-footer {
+    background-color: black;
+}
+.me-copyright {
+    text-align: center;
+    height: 57px;
+    line-height: 57px;
+    color: #6f6f6f;
+}
+.ml-390 {
+    margin-left: 390px;
+}
+.ml-48 {
+    margin-left: 48px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mr-8 {
+    margin-right: 8px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt-22 {
+    margin-top: 22px;
+}
+.mr-53 {
+    margin-right: 53px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.me-test {
+    background-color: red;
+}
+.me-small-content {
+    color: #9f9f9f;
+    font-size: 12px;
+}
+.me-description-content {
+    display: block;
+    color: rgb(165, 165, 165);
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.mt-d35 {
+    margin-top: -35px;
+}

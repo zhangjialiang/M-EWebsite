@@ -1,0 +1,430 @@
+/*滚动图片及下方图片选择*/
+
+.me-tab-con {
+    height: 505px;
+    overflow: hidden;
+}
+.me-tab-con .active {
+    z-index: 50;
+}
+.me-index-banner .me-item {
+    position: absolute;
+    width: 100%;
+    height: 505px;
+    /*    opacity: 0;*/
+}
+.me-tab-select-wrapper {
+    margin-left: 100px;
+    float: left;
+    cursor: pointer;
+}
+.me-tab-select-wrapper .active {
+    /*    opacity: 1;*/
+}
+.me-tab-select {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 44px;
+    width: 100px;
+}
+.me-tab-arrow {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -15px;
+    z-index: 500;
+    height: 30px;
+    width: 30px;
+    background: url('../images/index/u50.png') bottom center no-repeat;
+    zoom: 1;
+    opacity: 0;
+}
+.me-case-domain2 {
+    margin: 10px 0;
+    background-color: green;
+    height: 1000px;
+}
+/* 二级目录 */
+
+.me-navbar-wrapper {
+    background-color: white;
+    height: 47px;
+    line-height: 47px;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.me-navbar-split {
+    border-left: 1px solid #E6E6E6;
+    line-height: 17px;
+    height: 17px;
+    width: 2px;
+    float: left;
+    margin-top: 15px;
+}
+.me-container .scroll {
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    z-index: 100;
+}
+.ml-333 {
+    margin-left: 333px;
+}
+.me-navbar-wrapper .me-navbar-li {
+    width: 166px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    height: 44px;
+    float: left;
+}
+.me-navbar-li a {
+    display: inline-block;
+    font-size: 14px;
+    height: 47px;
+    color: #9f9f9f;
+    border-bottom: 3px solid #fff;
+    text-decoration: none;
+}
+.me-navbar-li .active {
+    border-bottom: 3px solid red;
+}
+.me-stick-active {
+    border-bottom: 2px solid red;
+}
+/*产品界面*/
+
+.me-production-wrapper {} .me-production-item-big {
+    width: 496px;
+    height: 416px;
+    float: left;
+}
+.me-production-img {
+    width: 496px;
+    height: 316px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.me-production-img img {
+    width: 100%;
+    height: 100%;
+}
+.me-production-title {
+    display: block;
+    padding: 3px 0 0;
+    height: 20px;
+    line-height: 20px;
+    color: #4c4c4c;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 500;
+}
+.me-production-title a {
+    color: black;
+    cursor: pointer;
+    line-height: 20px;
+    text-decoration: none;
+}
+.me-production-title a:hover {
+    color: red;
+}
+.me-production-content {
+    display: block;
+    padding: 3px 0 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #9f9f9f;
+}
+/*产品列表*/
+
+.me-production-list {} .me-plist-item {
+    height: 339px;
+    width: 328px;
+    display: inline;
+    float: left;
+}
+.me-plist-img {
+    width: 100%;
+    height: 100%;
+}
+.me-plist-img img{
+    height:244px;
+    width:328px;
+}
+/*分页*/
+
+.me-page {
+    height: 68px;
+    text-align: center;
+}
+.me-page-left {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/btn_left_right.png') no-repeat;
+    margin: 11px 4px 0;
+    background-position: top center;
+}
+.me-page-right {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/btn_left_right.png') no-repeat;
+    margin: 11px 4px 0;
+    background-position: bottom center;
+}
+.me-page-num {
+    text-decoration: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: center;
+    margin: 8px 15px 0;
+    color: #000;
+    border: 3px solid #fff;
+}
+.me-page-num:hover {
+    text-decoration: none;
+    border: 3px solid red;
+}
+.me-page .active {
+    color: red;
+}
+/*领域界面*/
+
+.me-domain-wrapper {} .me-domain-title {
+    display: block;
+    padding-left: 2px;
+    font-size: height: 19px;
+    line-height: 19px;
+    border-left: 2px solid #ff0000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 6px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.me-domain-item {
+    width: 320px;
+    float: left;
+    display: inline;
+}
+.me-domain-item img {
+    width: 100%;
+    height: 160px;
+}
+.me-ditem-title {
+    height: 66px;
+    line-height: 66px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.me-ditem-content {
+    color: #9f9f9f;
+    font-size: 12px;
+}
+/*案例详情*/
+
+.me-dcase-wrapper {} .me-dcase-content {
+    border-bottom: 1px solid #e6e6e6;
+}
+.me-dcase-title {
+    margin: 40px 0px;
+    font-weight: 400;
+    font-size: 28px;
+    color: #4C4C4C;
+}
+.me-dcase-content p {} .me-otherc-wrapper {
+    padding-bottom: 34px;
+}
+.me-otherc-title {
+    display: block;
+    padding-left: 2px;
+    border-left: 3px solid red;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+/*我们--文化*/
+
+.me-culture-title {
+    padding: 30px;
+    text-align: center;
+}
+.me-culture-title p {
+    font-weight: 400;
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+}
+.me-culture-list {
+    height: 360px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 34px;
+}
+.me-culture-list .me-ditem-title {
+    margin-top: 34px;
+}
+/*我们 核心团队*/
+
+.me-team-title {
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+.me-team-text {
+    line-height: 20px;
+    color: #4c4c4c;
+    font-size: 18px;
+    font-weight: 500;
+    border-left: 2px solid red;
+    padding-left: 2px;
+}
+.me-team-list {
+    padding-bottom: 60px;
+}
+.me-team-item {
+    float: left;
+    margin-bottom: 34px;
+}
+.me-team-item img {
+    width: 209px;
+    height: 281px;
+}
+/*服务 联系我们*/
+
+.me-contact-title {} .me-contact-wrapper {} .me-contact-title {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.me-user-info {
+    width: 210px;
+    height: 183px;
+    overflow: hidden;
+    float: left;
+}
+.me-user-info input {
+    display: block;
+    width: 208px;
+    height: 38px;
+    background: #fafafa;
+    border: 1px solid #c9c9c9;
+    text-indent: 10px;
+    color: #cccccc;
+    margin-bottom: 31px;
+}
+.me-user-contact {
+    float: right;
+}
+.me-user-contact textarea {
+    width: 743px;
+    min-width: 743px;
+    max-width: 743px;
+    height: 180px;
+    min-height: 180px;
+    max-height: 180px;
+    line-height: 38px;
+    padding-left: 15px;
+    background: #fafafa;
+    border: 1px solid #c9c9c9;
+    color: #cccccc;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.me-user-submit {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    background: #000;
+    float: right;
+    color: white;
+}
+.me-user-submit:hover {
+    border-color: #686868;
+    outline: none;
+    color: #4c4c4c;
+}
+.me-left-title {
+    line-height: 20px;
+    color: #4c4c4c;
+    font-size: 18px;
+    border-left: 2px solid red;
+    padding-left: 2px;
+}
+.me-service-list {
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 48px;
+}
+.me-service-list .active {
+    border-bottom: 3px solid red;
+}
+.me-service-icon {
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
+.me-service-icon div{
+    height:93px;
+    overflow:hidden;
+}
+.me-service-icon img {
+    width: 90px;
+    height: 186px;
+    margin-top:-93px;
+}
+.me-service-icon.active img {
+    margin-top:0px;
+}
+.me-service-icon p {
+    display: inline-block;
+    margin: 18px 0px;
+    height: 21px;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+/*服务 解决方案*/
+
+.me-solution-wrapper {
+    padding: 40px 0px;
+}
+.me-service-items {
+    height: 300px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.me-service-item-list {
+    position: absolute;
+}
+.me-service-item {
+    text-align: center;
+    width: 220px;
+    float: left;
+}
+.me-service-item-img {
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
